@@ -1,10 +1,10 @@
-import {useEffect, useState} from 'react';
+import {useState} from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid';
 import Logo from '@/assets/Logo.png';
 import Link from './link';
 import { SelectedPage } from '@/shared/types';
 import useMediaQuery from '@/hooks/useMediaQuery';
-import ActionButton from '@/shared/actionButton';
+import ActionButton from '@/shared/ActionButton';
 
 
 type Props = {
